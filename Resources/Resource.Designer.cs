@@ -60,14 +60,32 @@ namespace Lab3
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050008
+			public const int addButton = 2131034120;
+			
+			// aapt resource value: 0x7f050007
+			public const int authorEditText = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int authorLabelTextView = 2131034118;
+			
 			// aapt resource value: 0x7f050001
-			public const int nextButton = 2131034113;
+			public const int authorTextView = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int nextButton = 2131034114;
+			
+			// aapt resource value: 0x7f050005
+			public const int quoteEditText = 2131034117;
+			
+			// aapt resource value: 0x7f050004
+			public const int quoteLabelTextView = 2131034116;
 			
 			// aapt resource value: 0x7f050000
 			public const int quoteTextView = 2131034112;
 			
-			// aapt resource value: 0x7f050002
-			public const int space1 = 2131034114;
+			// aapt resource value: 0x7f050003
+			public const int space1 = 2131034115;
 			
 			static Id()
 			{

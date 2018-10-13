@@ -3,12 +3,19 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:text="No quote yet"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/quoteTextView" />
+	<TextView
+		android:text="No quote yet"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/quoteTextView"/>
+	<TextView
+		android:text="No author yet"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/authorTextView"
+		android:textAlignment="center" />
     <Button
         android:text="Next Quote"
         android:layout_width="match_parent"
@@ -19,4 +26,37 @@
         android:layout_height="wrap_content"
         android:id="@+id/space1"
         android:minHeight="20dp" />
+	<TextView
+		android:text="Add Quote:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/quoteLabelTextView"
+		android:textSize="12dp" />
+	<EditText
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/quoteEditText"
+		android:textAlignment="center"
+		android:tooltipText="Add Quote" />
+	<TextView
+		android:text="Author:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/authorLabelTextView"
+		android:textSize="12dp" />
+	<EditText
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/authorEditText"
+		android:textAlignment="center"
+		android:tooltipText="Add Author" />
+	<Button
+		android:text="Add New Quote"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/addButton"/>
 </LinearLayout>

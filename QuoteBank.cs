@@ -52,7 +52,6 @@ namespace Lab3
 			quotes.Add(new Quote { Quotation = "If you get, give. If you learn, teach.", Person = "Maya Angelou"});
 			CurrentQuote = quotes [0];
 		}
-
-	}
+    }
 }
 
